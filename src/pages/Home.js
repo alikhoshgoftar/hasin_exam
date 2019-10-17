@@ -1,11 +1,11 @@
 import React from 'react';
 
-function HomePage() {
+function Home() {
     return (
         <div>
-            Home
+            Home page created by ali
         </div>
     );
 }
 
-export default HomePage;
+export default Home;
