@@ -1,9 +1,13 @@
 import React from 'react';
+import data from './../mockData/aboutUs.json'
 
 function AboutUs() {
+    console.log(data.aboutUsText)
     return (
-        <div>
-            AboutUs created by ali
+        <div className={"container"}>
+            {
+                data.aboutUsText
+            }
         </div>
     );
 }

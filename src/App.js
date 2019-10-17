@@ -1,10 +1,11 @@
 import React from "react";
+import "./styles/Base.css"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import TopMenu from './components/TopMenu'
+import TopMenu from './components/TopMenu/TopMenu'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 

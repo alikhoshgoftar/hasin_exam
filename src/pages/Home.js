@@ -1,9 +1,10 @@
 import React from 'react';
+import CardRow from './../components/CardRow/CardRow'
 
 function Home() {
     return (
-        <div>
-            Home page created by ali
+        <div className={'container'}>
+            <CardRow />
         </div>
     );
 }

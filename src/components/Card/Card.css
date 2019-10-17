@@ -1,0 +1,25 @@
+.card {
+    width: 300px;
+    padding: 10px 10px 30px 10px;
+    box-shadow: 0 0 5px 0 #f0f0f0;
+    border-radius: 5px;
+    margin: 0 20px 30px 20px;
+    transition: all .3s;
+    min-height: 350px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card a.cardLink {
+    text-decoration: none;
+}
+
+.card .description {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card .imageWrapper img {
+    width: 100%;
+    background: gray;
+}

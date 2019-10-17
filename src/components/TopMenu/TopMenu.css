@@ -1,0 +1,31 @@
+nav.topMenu {
+    box-shadow: 0 10px 10px 0px #fcfcfc;
+    padding: 20px 50px 10px 50px;
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav.topMenu li.menuItem {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 5px 10px 5px;
+    border-bottom: 3px solid transparent;
+}
+
+nav.topMenu li.menuItem.active {
+    border-bottom: 3px solid #0a6961;
+}
+
+nav.topMenu li.menuItem>a {
+    text-decoration: none;
+    color: #858585;
+    font-weight: bold;
+}
+
+nav.topMenu li.menuItem.active>a {
+    color: #0a6961;
+}

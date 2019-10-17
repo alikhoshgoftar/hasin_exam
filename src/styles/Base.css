@@ -1,0 +1,49 @@
+@font-face{
+    font-family: iransans;
+    src:url('./../assets/fonts/IRANSansWeb.woff')
+}
+
+html *{
+    direction: rtl;
+    font-size: 18px;
+    font-family: iransans;
+    color:#3c3c3c;
+    padding: 0;
+    margin: 0;
+}
+p,h1,h2,h3,div{
+    white-space: pre-wrap;
+}
+body{
+    padding: 150px 0 200px 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+    padding: 0 15px;
+}
+
+
+/*Start scroll style*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#cbcbcb;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0a6961cc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0a6961; 
+  }
+/*Start scroll style*/
