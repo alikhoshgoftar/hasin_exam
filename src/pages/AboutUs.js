@@ -1,6 +1,6 @@
 import React from 'react';
 import data from './../mockData/aboutUs.json'
-import Layout from './../components/Layout/Layout'
+import Layout from './../components/Layout'
 
 function AboutUs() {
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import './CardRow.css'
 import mydata from './../../mockData/products.json'
-import Card from './../Card/Card'
+import Card from '../Card'
 
 export default function CardRow() {
     let data = mydata

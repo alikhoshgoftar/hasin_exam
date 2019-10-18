@@ -1,6 +1,6 @@
 import React from 'react';
-import CardRow from './../components/CardRow/CardRow'
-import Layout from './../components/Layout/Layout'
+import CardRow from '../components/CardRow'
+import Layout from './../components/Layout'
 
 function Home() {
     return (

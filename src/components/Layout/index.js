@@ -1,5 +1,5 @@
 import React from 'react'
-import TopMenu from './../TopMenu/TopMenu'
+import TopMenu from '../TopMenu'
 
 export default function Layou(props) {
     return (
@@ -9,6 +9,3 @@ export default function Layou(props) {
         </div>
     )
 }
-
-
-
