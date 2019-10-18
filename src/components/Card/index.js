@@ -8,7 +8,7 @@ export default function Card(props) {
     let data = props.data
     return (
         <div className={"card"}>
-            <Link className="cardLink" to={"/post?id=" + data.id}  >
+            <Link className="cardLink" to={"/posts?id=" + data.id}  >
                 <div className="imageWrapper">
                     <img src={data.imageUrl} alt={data.title} />
                 </div>

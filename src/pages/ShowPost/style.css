@@ -1,0 +1,7 @@
+.showPostBox .ImageBox img{
+    width:100%
+}
+.showPostBox .postTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+}

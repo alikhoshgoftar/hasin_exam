@@ -1,12 +1,11 @@
 import React from 'react';
-import data from './../mockData/aboutUs.json'
-import Layout from './../components/Layout'
+import data from './../../mockData/aboutUs.json'
+import Layout from './../../components/Layout'
 
 function AboutUs() {
     return (
         <Layout>
         <div className={"container"}>
-
             {
                 data.aboutUsText
             }
