@@ -4,6 +4,9 @@ import {
 } from "react-router-dom";
 import './Card.css'
 
+const deleteHandler=(e)=>{
+    console.log("deleteHandler",e)
+}
 export default function Card(props) {
     let data = props.data
     return (
@@ -15,6 +18,9 @@ export default function Card(props) {
                 <h3>{data.title}</h3>
                 <p className={'description'}>{data.description}</p>
             </Link>
+            <div className="deletebox">
+                <button onClick={(e)=>deleteHandler(e)} className="deletePostBTN">حذف</button>
+                </div>
         </div>
     );
 }

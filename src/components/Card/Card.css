@@ -6,6 +6,7 @@
     margin: 0 20px 30px 20px;
     transition: all .3s;
     min-height: 350px;
+    position: relative;
 }
 .card:hover {
     transform: scale(1.05);
@@ -22,4 +23,30 @@
 .card .imageWrapper img {
     width: 100%;
     background: gray;
+}
+
+.card .deletebox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.card .deletebox button.deletePostBTN {
+    width: 100%;
+    border: initial;
+    height: 45px;
+    transition:all .2s;
+}
+
+.card .deletebox button.deletePostBTN:hover {
+    background: #EF5350;
+    color: white;
+}
+.card .deletebox button.deletePostBTN:active {
+    background: #f44336;
+    color: white;
+}
+.card .deletebox button.deletePostBTN:focus {
 }
