@@ -2,7 +2,12 @@ import {createStore,applyMiddleware,compose} from "redux";
 import thunk from "redux-thunk"
 import rootReduser from "./../redusers/index"
 import {persistStore,persistReducer} from 'redux-persist'
-import storage from 'redux-persist/lib/storage'
+
+//persist data in Session storage
+import storage from 'redux-persist/lib/storage/session'
+
+//persist data to Local storage
+// import storage from 'redux-persist/lib/storage'
 
 
 
