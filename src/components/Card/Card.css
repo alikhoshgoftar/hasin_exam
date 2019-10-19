@@ -20,6 +20,12 @@
     font-size: 16px;
 }
 
+.card .imageWrapper {
+    height: 150px;
+    background: white;
+    overflow: hidden;
+}
+
 .card .imageWrapper img {
     width: 100%;
     background: gray;

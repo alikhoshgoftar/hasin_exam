@@ -4,37 +4,85 @@
         "id": 1,
         "title": "مایکت",
         "description": "مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/myket.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/myket.jpg",
+        "isActive":true
     },
     {
         "id": 2,
         "title": "طاقچه",
         "description": "نزدیکترین کتابخانه شهر طاقچه اپلیکیشنی است برای لذت بردن از خواندن و شنیدن کتاب. در این اپلیکیشن به هزاران کتاب رایگان، کتاب صوتی، مجله و روزنامه دسترسی خواهید داشت.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/taghche.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/taghche.jpg",
+        "isActive":true
     },
     {
         "id": 3,
         "title": "گوشی شاپ",
         "description": "فروشگاه اینترنتی گوشی‌شاپ در سال ۱۳۸۴ به عنوان اولین وب‌سایت اطلاع‌رسانی و فروشگاه تخصصی گوشی موبایل آغاز به‌کار کرد.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/09/gooshishop.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/09/gooshishop.jpg",
+        "isActive":true
     },
     {
         "id": 4,
         "title": "رایا نوید سامانه",
         "description": "شرکت رایا نوید سامانه (سهامی‌خاص)، با هدف ایجاد بستری مناسب در زمینه ارائه راهکارهای یکپارچه فناوری اطلاعات، مبتنی بر سیستم مدیریت فرایندهای کسب و کار (BPMS)، با توسعه و تولید نرم افزار Ubiprocess شروع به کار کرد.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2019/02/ubi2.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2019/02/ubi2.jpg",
+        "isActive":true
     },
     {
         "id": 5,
         "title": "ترابرنت",
         "description": "ترابرنت حاصل همکاری استراتژیک چندین شرکت دانش ­بنیان و فناور است که بیشترین تجربه و سابقه را در اجرای پروژه ­های حمل­ ونقل هوشمند در کشور دارند.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/tarabarnet.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/tarabarnet.jpg",
+        "isActive":true
     },
     {
         "id": 6,
         "title": "مگنت",
         "description": "راه‌کارهای جامع بازاریابی دیجیتال، قدرت گرفته از پلتفرم اختصاصی مگنت روش‌های مدرن و کاربردی تبلیغات و بازاریابی دیجیتال را در بستر وب و موبایل فراهم می‌کند.",
-        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/magnet.jpg"
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/magnet.jpg",
+        "isActive":true
+    },
+    {
+        "id": 7,
+        "title": "مایکت",
+        "description": "مایکت یک استور اندرویدی با بیش از ۳۰۰ هزار برنامه و بازی ا‌ست که از پاییز ۱۳۹۰ فعالیت خود را آغاز کرده.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/myket.jpg",
+        "isActive":true
+    },
+    {
+        "id": 8,
+        "title": "طاقچه",
+        "description": "نزدیکترین کتابخانه شهر طاقچه اپلیکیشنی است برای لذت بردن از خواندن و شنیدن کتاب. در این اپلیکیشن به هزاران کتاب رایگان، کتاب صوتی، مجله و روزنامه دسترسی خواهید داشت.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/taghche.jpg",
+        "isActive":true
+    },
+    {
+        "id": 9,
+        "title": "گوشی شاپ",
+        "description": "فروشگاه اینترنتی گوشی‌شاپ در سال ۱۳۸۴ به عنوان اولین وب‌سایت اطلاع‌رسانی و فروشگاه تخصصی گوشی موبایل آغاز به‌کار کرد.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/09/gooshishop.jpg",
+        "isActive":true
+    },
+    {
+        "id": 10,
+        "title": "رایا نوید سامانه",
+        "description": "شرکت رایا نوید سامانه (سهامی‌خاص)، با هدف ایجاد بستری مناسب در زمینه ارائه راهکارهای یکپارچه فناوری اطلاعات، مبتنی بر سیستم مدیریت فرایندهای کسب و کار (BPMS)، با توسعه و تولید نرم افزار Ubiprocess شروع به کار کرد.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2019/02/ubi2.jpg",
+        "isActive":true
+    },
+    {
+        "id": 11,
+        "title": "ترابرنت",
+        "description": "ترابرنت حاصل همکاری استراتژیک چندین شرکت دانش ­بنیان و فناور است که بیشترین تجربه و سابقه را در اجرای پروژه ­های حمل­ ونقل هوشمند در کشور دارند.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/tarabarnet.jpg",
+        "isActive":true
+    },
+    {
+        "id": 12,
+        "title": "مگنت",
+        "description": "راه‌کارهای جامع بازاریابی دیجیتال، قدرت گرفته از پلتفرم اختصاصی مگنت روش‌های مدرن و کاربردی تبلیغات و بازاریابی دیجیتال را در بستر وب و موبایل فراهم می‌کند.",
+        "imageUrl": "http://hasin.ir/wp-content/uploads/2018/08/magnet.jpg",
+        "isActive":true
     }
 
 ]

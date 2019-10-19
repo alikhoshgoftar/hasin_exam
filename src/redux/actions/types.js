@@ -1,3 +1,2 @@
 export const FETCH_POSTS ="FETCH_POSTS";
-export const NEW_POST ="NEW_POST";
-export const INC ="INC";
+export const DELETE_POST_BY_ID ="DELETE_POST_BY_ID";

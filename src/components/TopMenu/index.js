@@ -8,7 +8,7 @@ class TopMenu extends React.Component {
             <nav className={"topMenu"}>
                 <ul>
                     <NavLink to="/">خانه</NavLink>
-                    <NavLink to="/aboutUs">درباره حصین</NavLink>
+                    <NavLink to="/aboutUs">درباره ما</NavLink>
                 </ul>
             </nav>
 

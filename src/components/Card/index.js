@@ -3,11 +3,10 @@ import {
     Link
 } from "react-router-dom";
 import './Card.css'
+import { connect } from 'react-redux';
+import { deletePostById } from './../../redux/actions/deletePostById'
 
-const deleteHandler=(e)=>{
-    console.log("deleteHandler",e)
-}
-export default function Card(props) {
+ function Card({deletePostById,props}) {
     let data = props.data
     return (
         <div className={"card"}>
@@ -19,8 +18,18 @@ export default function Card(props) {
                 <p className={'description'}>{data.description}</p>
             </Link>
             <div className="deletebox">
-                <button onClick={(e)=>deleteHandler(e)} className="deletePostBTN">حذف</button>
+                <button onClick={()=>deletePostById(data.id)} className="deletePostBTN">حذف</button>
                 </div>
         </div>
     );
 }
+
+const mapDispatchToProps = (dispatch,props) => {
+    return {
+      props,
+      deletePostById: (id) =>  dispatch(deletePostById(id)),
+
+    }
+  }
+  
+export default connect(null, mapDispatchToProps)(Card)
