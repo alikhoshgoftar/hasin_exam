@@ -12,6 +12,8 @@ function CardRow({ data }) {
                 data.map((item, key) => {
                     if (item.isActive === true) {
                         return (<Card data={item} key={key} />)
+                    }else{
+                       return null 
                     }
                 }
                 )
