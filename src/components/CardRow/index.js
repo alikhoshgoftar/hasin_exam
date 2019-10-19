@@ -1,11 +1,13 @@
 import React from "react";
 import './CardRow.css'
-import mydata from './../../mockData/products.json'
+// import mydata from './../../mockData/products.json'
 import Card from '../Card'
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux'
+import {fetchPosts} from './../../redux/actions/postActions'
 
-export default function CardRow() {
-    let data = mydata
-
+ function CardRow({data}) {
+    console.log("posts",data)
     return (
         <div className={"cardRow"}>
         {
@@ -16,3 +18,11 @@ export default function CardRow() {
         </div>
     );
 }
+
+const mapStateToProps = state => ({
+    data: state.posts.items
+  });
+  const mapDispatchToProps=(dispatch)=> {
+    return bindActionCreators(fetchPosts, dispatch)
+  }
+export default connect(mapStateToProps,mapDispatchToProps)(CardRow)

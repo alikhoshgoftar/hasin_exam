@@ -1,20 +1,19 @@
-import {FETCH_POSTS,NEW_POST} from "./types"
+import mydata from './../../mockData/products.json'
 
-export const fetchPosts=()=> dispatch=>{
-    fetch("https://jsonplaceholder.typicode.com/posts")
-    .then(res=>res.json())
-    .then(posts=>dispatch({
-        type:FETCH_POSTS,
-        payload:posts
+import { FETCH_POSTS } from "./types"
+
+export const fetchPosts = () => dispatch => {
+    let objStorage = JSON.parse(sessionStorage.getItem('persist:root'))
+    let posts=[]
+    if (objStorage) {
+        posts = JSON.parse(objStorage.posts).items
+    }
+
+    if (posts.length === 0) {
+        console.log("fetch data")
+        dispatch({
+            type: FETCH_POSTS,
+            payload: mydata
         })
-    );
-};
-
-export const createPost= postDate=> dispatch=>{
-
- dispatch({
-        type:NEW_POST,
-        payload:postDate
-        }
-        )
+    }
 };
