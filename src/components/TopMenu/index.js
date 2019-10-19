@@ -11,7 +11,6 @@ class TopMenu extends React.Component {
                     <NavLink to="/aboutUs">درباره ما</NavLink>
                 </ul>
             </nav>
-
         );
     }
 }
